@@ -1,0 +1,5 @@
+library(ggmap)
+geocode("Chandni Chowk")
+a=get_map("Chandni Chowk",zoom=15)
+ggmap(a)
+a=get_map()
