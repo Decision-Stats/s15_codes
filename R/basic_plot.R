@@ -1,0 +1,11 @@
+plot(iris$Sepal.Length,iris$Species)
+plot(iris$Species,iris$Sepal.Length)
+boxplot(iris$Sepal.Length)
+plot(iris$Sepal.Length,type="l")
+data(mtcars)
+plot(mtcars$mpg,mtcars$cyl)
+boxplot(mtcars$mpg~mtcars$cyl)
+#it shows a outliner of cyl=8
+barplot(iris$Sepal.Length)
+hist(iris$Sepal.Length)
+hist(iris$Sepal.Length)
