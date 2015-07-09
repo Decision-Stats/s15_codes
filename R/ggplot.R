@@ -1,0 +1,9 @@
+library(ggplot2)
+qplot(Sepal.Length|Species)
+a=ggplot(aes(y=Petal.Length,x=Sepal.Length),data=iris)+geom_point()
+a
+a=ggplot(aes(y=Petal.Length,x=Sepal.Length,color=Species),data=iris)+geom_point()
+a
+diamonds=na.omit(diamonds)
+a=ggplot(aes(y=price,x=carat,color=cut),data=diamonds)+geom_point()+facet_grid(.~color)
+a
