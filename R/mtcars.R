@@ -1,0 +1,9 @@
+data(mtcars)
+head(mtcars,2)
+tail(mtcars,3)
+names(mtcars)
+str(mtcars)
+mtcars[1,]
+mtcars[,2]
+mtcars[2,3]
+mtcars$cyl
