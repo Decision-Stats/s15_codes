@@ -1,0 +1,10 @@
+s=c("ac","cd","ef")
+grepl("w",s)
+grepl("c",s)
+
+m=c(50,"50","50,","$50,","$50")
+mean(m)
+m=gsub(",","",m)
+m=gsub("\\$","",m)
+m=as.numeric(m)
+mean(m)
