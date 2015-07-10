@@ -8,6 +8,7 @@ To-do:
 3.  Program for macros in SAS.
 4.  RODBC code.
 5.  Sqlite codes.
-6.  ggmap images
+6.  ggmap images.
 7.  corrected code for diamond mean price by cut.
+8.  Code for Business Analytics in Python.
 
